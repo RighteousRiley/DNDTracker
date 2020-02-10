@@ -42,7 +42,7 @@ class Character_Inquirer:
         self.labels = copy.deepcopy(grid)
         self.entries = copy.deepcopy(grid)
         self.responses = copy.deepcopy(grid)
-        label_strings = ["Character Name", "Class", "Level", "Race", "Background", "Faction", "Player Name", "XP Points",
+        LABEL_STRINGS = ["Character Name", "Class", "Level", "Race", "Background", "Faction", "Player Name", "XP Points",
          "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma", "Armor Class", "Speed",
          "Personality Traits", "Ideals", "Bonds", "Starting Inventory", "Attacks"]
         index = 0
